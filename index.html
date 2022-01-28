@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style/index.css" />
   </head>
-  <body>
+  <body
+    style="
+      background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2893&q=80);
+      background-repeat: no;
+      background-size: cover;
+      background-attachment: fixed;
+    "
+  >
     <section class="top">
       <h1>Marcos Martinez</h1>
       <nav>
-        <button><a href="index.html">Home</a></button>
-        <button><a href="about.html">About</a></button>
-        <button><a href="projects.html">Projects</a></button>
-        <button><a href="contact.html">Contact</a></button>
+        <div class="links">
+          <button><a href="index.html">Home</a></button>
+          <button><a href="about.html">About</a></button>
+          <button><a href="projects.html">Projects</a></button>
+          <button><a href="contact.html">Contact</a></button>
+        </div>
       </nav>
-      <h1>Introducing My Site</h1>
+      <h3>Introducing My Site</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
         libero eu erat placerat luctus nec non eros. Class aptent taciti
@@ -29,7 +39,10 @@
         turpis. Cras vel egestas libero. Nunc semper libero ac dui viverra
         auctor.
       </p>
+    </section>
+    <section>
       <img
+        class="fullimg"
         src="Wireframe Options/daniel-leone-g30P1zcOzXo-unsplash.jpg"
         alt=""
       />
@@ -39,11 +52,13 @@
       <img src="Wireframe Options/ingmar-otT2199XwI8-unsplash.jpg" />
       <img src="Wireframe Options/ingmar-otT2199XwI8-unsplash.jpg" />
       <img src="Wireframe Options/ingmar-otT2199XwI8-unsplash.jpg" />
-      <div class="discription">
-        In my life I have noticed that I love how things look. These pictures
-        are just so beautiful and daring. From the monitor screen it looks like
-        it would be easy to get to the top of this mountain but thats only until
-        you get to the bottom of it.
+      <div>
+        <p class="discription">
+          In my life I have noticed that I love how things look. These pictures
+          are just so beautiful and daring. From the monitor screen it looks
+          like it would be easy to get to the top of this mountain but thats
+          only until you get to the bottom of it.
+        </p>
       </div>
     </section>
     <footer>
